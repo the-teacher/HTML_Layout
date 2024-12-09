@@ -2,7 +2,7 @@
   display: contents;
 }
 
-body {
+.layout__body {
   /* Flex container (as parent) */
   display: flex;
   flex-direction: column;
