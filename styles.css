@@ -18,12 +18,12 @@
 .layout__header {
   background-color: #dcdcdc;
   min-height: 100px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .layout__main {
   background-color: #e8e8e8;
-  padding: 15px;
+  padding: 0 15px;
 
   /* Fill remaining space (as child) */
   flex: 1;
@@ -32,13 +32,11 @@
 .layout__footer {
   background-color: #dcdcdc;
   min-height: 100px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .layout__content-container {
   max-width: 1440px;
   margin: 0 auto;
-
-  padding: 0 15px;
   background-color: #f1f1f1;
 }
