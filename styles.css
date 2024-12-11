@@ -25,6 +25,9 @@
   background-color: #e8e8e8;
   padding: 0 15px;
 
+  /* Flex container (as parent) */
+  display: flex;
+
   /* Fill remaining space (as child) */
   flex: 1;
 }
@@ -39,4 +42,29 @@
   max-width: 1440px;
   margin: 0 auto;
   background-color: #f1f1f1;
+}
+
+.layout__main-columns {
+  /* Flex container (as parent) */
+  display: flex;
+  gap: 15px;
+
+  /* Fill remaining space (as child) */
+  flex: 1;
+}
+
+.layout__aside {
+  background-color: #dfffdf;
+  padding: 15px;
+
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.layout__main-content {
+  background-color: #fff;
+  padding: 15px;
+
+  /* Fill remaining space (as child) */
+  flex: 1;
 }
